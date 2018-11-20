@@ -1,14 +1,22 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      EyeChart
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
+	<button ion-button block>Block Button</button>
+
+  The world is your oyster. SAI BALUSU
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+  	<ion-buttons>
+   		<button ion-button (click)="goInfoPage()">Go to Info Page </button>
+   		<button ion-button (click)="goOrdersPage()">Go to Orders Page </button>
+   		<button ion-button (click)="goAppointmentsPage()">Go to Appointments Page </button>
+   		<button ion-button (click)="goPrescriptionsPage()">Go to Prescriptions Page </button>
+ 	</ion-buttons>
 </ion-content>

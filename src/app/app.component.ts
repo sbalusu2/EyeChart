@@ -4,6 +4,11 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+import { InfoPage } from '../pages/myInfo/myInfo';
+import { OrdersPage } from '../pages/myOrders/myOrders';
+import { AppointmentsPage } from '../pages/myAppointments/myAppointments';
+import { PrescriptionsPage } from '../pages/myPrescriptions/myPrescriptions';
+
 @Component({
   templateUrl: 'app.html'
 })
